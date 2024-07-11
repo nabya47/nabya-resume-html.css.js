@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nabya Naseem" />
+
+    <title>Nabya</title>
+    <link rel="icon" type="images/png" href="images/N.icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <h1 class="headings">HI, I AM NABYA</h1>
+          <p>
+            Aspiring web developer passionate about creating user-friendly
+            websites and eager to contribute skills in a dynamic team
+            environment.
+          </p>
+          <br />
+          <button class="btn"><a href="#contact">Hire Me</a></button>
+        </div>
+      </section>
+      <section id="Portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div class="gallery">
+          <img id="img1" src="images/web1.jpg" alt="" />
+          <img id="img2" src="images/web3.jpg" alt="" />
+          <img id="img3" src="images/web.jpg" alt="" />
+          <img id="img4" src="images/web2.jpg" alt="" />
+          <img id="img5" src="images/web4.jpg" alt="" />
+          <img id="img6" src="images/web5.png" alt="" />
+        </div>
+      </section>
+      <section id="services">
+        <h1 class="headings">Services</h1>
+        <div class="row">
+          <div class="box web-dev">
+            <h1 class="headings">Web development</h1>
+            <p>
+              <b>
+                Crafting exceptional websites, we turn your visions into virtual
+                reality with precision and passion in every code we write.</b
+              >
+            </p>
+          </div>
+
+          <div class="box content">
+            <h1 class="headings">content creation</h1>
+            <p>
+              <b>
+                Empowering your brand through compelling content that speaks
+                louder than words.</b
+              >
+            </p>
+          </div>
+
+          <div class="box designing">
+            <h1 class="headings">graphic designing</h1>
+            <p>
+              <b
+                >Transforming visions into visuals, we craft design that speaks
+                volumes and captivates the eye.</b
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h1 class="headings">About Me</h1>
+        <div class="pic">
+          <img src="./images/remini.w.jpeg" alt="" />
+          <div class="name">
+            <h2>I'm Nabya Naseem</h2>
+            <br />
+            <p>
+              Hey there! I'm Nabya, a budding web developer with a passion for
+              crafting immersive online experiences. Currently immersed in my
+              journey as a web development student, I'm driven by the excitement
+              of learning and experimenting with the latest technologies. My
+              toolbox includes HTML, CSS, and JavaScript, and I'm constantly
+              exploring the realms of frameworks like React and node.js to
+              elevate my projects. As a student, I bring fresh perspectives and
+              a hunger to grow, collaborating with peers to tackle challenges
+              and share insights. Beyond coding, I'm all about staying curious
+              and embracing the ever-evolving nature of web development. Join me
+              on this learning adventure, where I turn ideas into interactive
+              and visually appealing websites.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form class="form" onsubmit="return validate()" action="message.html">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter Your Name"
+            autocomplete="name"
+          />
+
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            id="Email"
+            placeholder="Enter Your E-mail"
+            autocomplete="email"
+          />
+
+          <textarea
+            name="message"
+            class="msg"
+            cols="20"
+            rows="9"
+            placeholder="Type Your Message here"
+          ></textarea>
+
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a
+        class="fb-a"
+        href="https://m.facebook.com/login/?locale=en_GB"
+        target="_blank"
+        ><ion-icon name="logo-facebook"></ion-icon
+      ></a>
+
+      <a class="link-a" href="https://www.linkedin.com/" target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+
+      <a class="insta-a" href="https://www.instagram.com/" target="_blank"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+      <p>Copyright &copy; 2024 by NABYA | All rights resreved</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

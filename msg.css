@@ -1,0 +1,10 @@
+body{
+    padding: 10% 20%; 
+}
+div{
+    border: 2px solid yellow;
+     text-align: center;
+}
+span{
+    color: greenyellow;
+}
